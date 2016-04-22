@@ -1,0 +1,7 @@
+pod 'OHHTTPStubs', '~> 5.0.0'
+
+target :OHHTTPStubsDemoTests, :exclusive => true do
+    link_with 'OHHTTPStubsDemoTests'
+    
+    pod 'OHHTTPStubs'
+end
